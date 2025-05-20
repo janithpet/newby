@@ -1,5 +1,5 @@
 # newby
-Creates a newby python package.
+Creates a new project folder from templates.
 
 ## Installation
 
