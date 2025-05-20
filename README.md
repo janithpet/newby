@@ -3,7 +3,7 @@ Creates a newby python package.
 
 ## Installation
 
-Install by running `pip install .` in the root folder.
+Install by running `pip install newby` in the root folder.
 
 ## Running, and options
 
