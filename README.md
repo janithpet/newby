@@ -7,7 +7,10 @@ Install by running `pip install .` in the root folder.
 
 ## Running, and options
 
-Run using `new <project name>`.
+> [!NOTE]
+> Only the creation of Python projects is supported currently.
+
+Run using `new python <project name>`.
 
 When run for the first time, you will be asked to set the default author, python manager (`pip`, `pipenv` or `pyenv`), and license (`mit`, `unlicense` and `boost`).
 
@@ -29,7 +32,7 @@ The following options are available:
 ### Example
 Suppose you run:
 
-`new hello_world -vipg -at 'Random Author' -m pipenv`
+`new python hello_world -vipg -at 'Random Author' -m pyenv`
 
 This will:
 
