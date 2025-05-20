@@ -1,5 +1,5 @@
-# new
-Creates a new python package.
+# newby
+Creates a newby python package.
 
 ## Installation
 
@@ -10,7 +10,7 @@ Install by running `pip install .` in the root folder.
 > [!NOTE]
 > Only the creation of Python projects is supported currently.
 
-Run using `new python <project name>`.
+Run using `newby python <project name>`.
 
 When run for the first time, you will be asked to set the default author, python manager (`pip`, `pipenv` or `pyenv`), and license (`mit`, `unlicense` and `boost`).
 
@@ -25,14 +25,14 @@ The following options are available:
 | --license-tmp, -k 	| [Flag] Specify that the license will not be set as default 	|
 | --manager, -m 	| Specify the python package manager (and virtual environment). Currently supports `pyenv`, `pip`, `pipenv`. If `pip` is chosen, the virtual environment will be created using `virtualenv`. 	|
 | --venv, -v 	| [Flag] Creates a virtual environment using the default manager. 	|
-| --install, -i 	| [Flag] Install the new project. If --venv is set, this will be installed in the virtual environment that is created. 	|
+| --install, -i 	| [Flag] Install the newby project. If --venv is set, this will be installed in the virtual environment that is created. 	|
 | --git, -g 	| [Flag] Initialises git if this flag is set 	|
 | --precommit, -p 	| [Flag] Install [pre-commit](https://pre-commit.com/) hooks if this flag is set. This requires the --git flag. 	|
 
 ### Example
 Suppose you run:
 
-`new python hello_world -vipg -at 'Random Author' -m pyenv`
+`newby python hello_world -vipg -at 'Random Author' -m pyenv`
 
 This will:
 
